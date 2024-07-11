@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.nav__wrapper {
+    width: 1225px;
+    height: 81px;
+    margin: 0 auto;
+}
+
+
+.nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site__logo__item{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.navItem {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+.nav__content {
+    align-items: center;
+    display: flex;
+    gap: 18px;
+}
+
+.site__logo__item {
+    width: 220.432px;
+    height: 36px;
+}
+
+.site__logo {
+    font-weight: 800;
+    color: #424242;
+}
+
+.nav__link {
+    color: #908f8f;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: #5A47AB;
+    
+}
+
+.nav__link.active {
+    color: #5A47AB;
+    font-weight: 600;
+}
+
+
+.language__select {
+    color: #000;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.language__select:focus {
+    outline: none;
+}
